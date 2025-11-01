@@ -12,5 +12,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to the backend server!" });
 });
+// Routes
+const contactRoutes = require("./app/routes/contact.route");
+app.use("/api/contacts", contactRoutes);
 
 module.exports = app;
