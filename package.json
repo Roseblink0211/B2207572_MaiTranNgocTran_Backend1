@@ -1,0 +1,24 @@
+{
+  "name": "backend_1",
+  "version": "1.0.0",
+  "description": "Backend project for CT449 - Phát triển Ứng dụng Web",
+  "homepage": "https://github.com/Roseblink0211/B2207572_MaiTranNgocTran_Backend1#readme",
+  "bugs": {
+    "url": "https://github.com/Roseblink0211/B2207572_MaiTranNgocTran_Backend1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roseblink0211/B2207572_MaiTranNgocTran_Backend1.git"
+  },
+  "license": "ISC",
+  "author": "Mai Tran Ngoc Tran",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
